@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
     <title>Form validation</title>
 </head>
 <body>
+<div>
+    <form>
+        <h3>Registeren</h3>
+        <label for="username-field">
+        Gebruikersnaam:
+            <input
+                type="text"
+                name="username"
+                id="username-field"
+        />
+        </label>
+        <br>
+        <p id="form-warning-username"></p>
+        <label for="password-field">
+        Wachtwoord:
+            <input
+                type="password"
+                name="password"
+                id="password-field"
+        />
+        </label>
+
+        <p id="form-warning-password"></p>
+    </form>
+</div>
+
 
 </body>
 </html>

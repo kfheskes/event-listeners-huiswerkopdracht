@@ -1,0 +1,32 @@
+*{
+	Margin: 0;
+ 	Padding: 0;
+ 	Box-sizing: border-box;
+ }
+
+body {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+
+div {
+	background-color: #34ffa4;
+	padding: 30px;
+	border-radius: 4px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input {
+	width: 100%;
+}
+
+.form-warning {
+	color: red;
+}
